@@ -1,0 +1,30 @@
+1. git / github 개념
+  - github는 소스코드를 올리는 공간이다.
+  - git은 소스코드를 내 컴퓨터에서 github로 올려주는 역할을 한다.
+
+2. github 역할
+  - 내 소스코드를 버전별로 저장할 수 있다.
+  - 소스코드를 공유한다.
+  - 협업한다.
+  
+3. git 활용 - 소스코드 공유하기
+  - git을 통해 소스코드를 올리기 때문에 git이 필요하므로 git을 다운받는다.
+  - git을 활용하기 위해 id, email을 설정한다. ex) git config --global user.name "Your Name", git config --global user.email you@example.com
+  - git init : 저장소로 활용하고자 하는 디렉토리에서 git init을 해주어 저장소를 초기화해준다.
+  - git add : git에 넣을 파일들을 넣는다.
+  - git status : git의 현재 상태를 표시한다.
+  - git commit -m "first commit" : 우리가 원래 과제할 때 과제, 과제수정1, 과제최종 이렇게 파일들을 수정했다면
+                                   비슷하게 스냅샷을 찍어 히스토리를 만들어주는 과정이다. 이전버전으로 되돌아갈 수 있다.
+  - git remote add origin [github주소] : 원격 github 저장소와 연결한다.
+  - git push origin master : 전달한다.
+
+
+4. git 활용 - 협업
+  - git clone [git링크] [폴더명] : github 자료를 복사해 내 폴더에 가져온다.
+  - git checkout -b [새브런치명] : 마스터에 병합을 하기 전에 나만의 github 공간을 새로 판다.
+  - git push origin [새브런치명] : 내 브런치에 올린다.
+  - create pull request : github 사이트에서 마스터로 병합하기 위한 마스터 관리자에게 요청한다.
+  - merge pull request : 관리자는 브렌치에서 요청한 코드를 master로 병합한다.
+  - git commit ~ / git pull origin master : 관리자가 혼자 햇던 코드도 병합하기 위해 commit 후 마스터 코드를 땡겨오면 합쳐진다.
+                                            이때 다른 팀원들도 마찬가지로 동기화 해준다.
+  
