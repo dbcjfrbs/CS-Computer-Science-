@@ -82,3 +82,5 @@
   - DAG : 방향성 비 사이클
   - 기본적으로 데이터 인프라에서 데이터를 처리하는 데 파이썬을 활용한다.
   - 맵리듀스 : 분산 처리하고 합친다.
+
+Reference : https://www.youtube.com/watch?v=1yctKucEKis
