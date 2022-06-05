@@ -82,5 +82,9 @@
   - DAG : 방향성 비 사이클
   - 기본적으로 데이터 인프라에서 데이터를 처리하는 데 파이썬을 활용한다.
   - 맵리듀스 : 분산 처리하고 합친다.
-
+  - CDC : DB 내 데이터 변경을 식별해 데이터 전송, 공유를 자동화하는 기술이다.
+          실시간으로 백업과 데이터 통합이 가능하다.
+  
 Reference : https://www.youtube.com/watch?v=1yctKucEKis
+            https://yannichoongs.tistory.com/239
+            
